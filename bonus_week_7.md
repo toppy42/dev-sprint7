@@ -104,7 +104,7 @@ should look like
 ```
 Now let's fetch the latest version of master
 ```
-git fetch master
+git fetch origin
 ```
 If there had been changes to master, we would have seen this get updated. Now we have to update our local copy of master...
 ```
