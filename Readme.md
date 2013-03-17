@@ -99,6 +99,11 @@ example_ruby_scripts.rb
 commands.txt
 
 Open example_ruby_scripts.rb in your favorite text editor, and try to figure out what each method does--you should recognize all of them.
+First type
+```
+irb
+```
+into your terminal to open the interactive ruby interpreter. Then require (like Python's 'import') the scripts file.
 ```
 require '~/devrampup/week7/example_ruby_scripts.rb'
 ```
