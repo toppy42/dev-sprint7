@@ -4,55 +4,56 @@ Each Ruby command will return a value. Sometimes, these values are not what we e
 Try the following Commands:
 
 string = "Hello World"
-=> fill_in_what_irb_returns_here
+=> "Hello World"
 
 string.reverse
-=> fill_in_what_irb_returns_here
+=> "dlroW olleH"
 
 string
-=> fill_in_what_irb_returns_here
+=> "Hello World"
 
 array = [3,1,2]
-=> fill_in_what_irb_returns_here
+=> [3,1,2]
 
 array.sort
-=> fill_in_what_irb_returns_here
+=> [1,2,3]
 
 array
-=> fill_in_what_irb_returns_here
+=> [3,1,2]
 
 array.sort!
-=> fill_in_what_irb_returns_here
+=> [1,2,3]
 
 array
-=> fill_in_what_irb_returns_here
+=> [1,2,3]
 
 => What do you think the exclamation mark indicates?
+	Apply method changes to original object in place
 
 puts "Hello Ruby"
-=> fill_in_what_irb_returns_here
+=> nil
 
 array = [1,2,3,4]
-=> fill_in_what_irb_returns_here
+=> [1,2,3,4]
 
 array.each do |e|
   e**2
 end
-=> fill_in_what_irb_returns_here
+=> [1,2,3,4]
 
 array.each { |e| e**2 }
-=> fill_in_what_irb_returns_here
+=> [1,2,3,4]
 
 array
-=> fill_in_what_irb_returns_here
+=> [1,2,3,4]
 
 array.map do |e|
   e**2
 end
-=> fill_in_what_irb_returns_here
+=> true
 
 array
-=> fill_in_what_irb_returns_here
+=> [1,4,9,16]
 
 array = [1,2,3]
 
@@ -60,15 +61,15 @@ array.inject(0) do |sum, e|
   sum += e
   sum
 end
-=> fill_in_what_irb_returns_here
+=> 6
 
 array
-=> fill_in_what_irb_returns_here
+=> [1,2,3]
 
 array.reject do |e|
   e > 2
 end
-=> fill_in_what_irb_returns_here
+=> [1,2]
 
 array
-=> fill_in_what_irb_returns_here
+=> [1,2,3]
